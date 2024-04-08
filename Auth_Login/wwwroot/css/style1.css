@@ -1,0 +1,333 @@
+﻿.buttonbtn-basic-icon {
+    position: absolute;
+    height: 17.39%;
+    width: 4.35%;
+    top: 8.7%;
+    right: 2.17%;
+    bottom: 73.91%;
+    left: 93.48%;
+    border-radius: var(--br-7xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.lorem-ipsum-dolor {
+    margin: 0;
+}
+
+.the-largest-apple-container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.link {
+    position: absolute;
+    top: 74.67%;
+    left: 0;
+    font-weight: 500;
+    color: var(--base-color-blue);
+}
+
+.description {
+    position: absolute;
+    height: 32.61%;
+    width: 65.98%;
+    top: 53.91%;
+    right: 9.13%;
+    bottom: 13.48%;
+    left: 24.89%;
+}
+
+.text {
+    top: 0;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.price,
+.text,
+.text1 {
+    position: absolute;
+}
+
+.text1 {
+    top: 17.86%;
+    left: 55.56%;
+    font-size: var(--text-base-size);
+    text-decoration: line-through;
+    font-weight: 600;
+    color: var(--gray-500);
+}
+
+.price {
+    height: 12.17%;
+    width: 17.61%;
+    top: 26.52%;
+    right: 57.5%;
+    bottom: 61.3%;
+    left: 24.89%;
+    font-size: var(--title-h4-size);
+    color: var(--base-color-dark);
+}
+
+.group-child,
+.image-126-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+}
+
+.group-child {
+    background-color: var(--white);
+    height: 180px;
+}
+
+.image-126-icon {
+    height: 100%;
+    bottom: 0;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.rectangle-parent {
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    width: 180px;
+    height: 180px;
+}
+
+.dot,
+.free-shipping {
+    position: absolute;
+    top: 0;
+    left: 69.77%;
+}
+
+.dot {
+    height: 31.58%;
+    width: 1.74%;
+    top: 31.58%;
+    right: 32.85%;
+    bottom: 36.84%;
+    left: 65.41%;
+    border-radius: 50%;
+    background-color: var(--gray-300);
+}
+
+.miscrating-icon {
+    position: absolute;
+    height: 78.95%;
+    width: 23.26%;
+    top: 5.26%;
+    right: 76.74%;
+    bottom: 15.79%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.bell-ross,
+.bell-ross1 {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    color: var(--base-color-orange);
+}
+
+.bell-ross1 {
+    left: 39.24%;
+    color: var(--gray-500);
+}
+
+.dot1 {
+    position: absolute;
+    height: 31.58%;
+    width: 1.74%;
+    top: 31.58%;
+    right: 63.37%;
+    bottom: 36.84%;
+    left: 34.88%;
+    border-radius: 50%;
+    background-color: var(--gray-300);
+}
+
+.free-shipping-parent {
+    position: absolute;
+    height: 8.26%;
+    width: 37.39%;
+    top: 40.43%;
+    right: 37.72%;
+    bottom: 51.3%;
+    left: 24.89%;
+    color: var(--color-limegreen);
+}
+
+.cart-vector-icon,
+.vector-icon {
+    position: absolute;
+    top: 20px;
+    left: 799px;
+    width: 40px;
+    height: 40px;
+}
+
+.vector-icon {
+    height: 0.09%;
+    width: 1.16%;
+    top: 18.65%;
+    right: 8.18%;
+    bottom: 81.26%;
+    left: 90.65%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.layout-2product-card-08 {
+    position: absolute;
+    top: 227px;
+    left: 246px;
+    width: 920px;
+    height: 230px;
+    color: var(--gray-600);
+}
+
+.description1 {
+    height: 32.61%;
+    width: 65.98%;
+    top: 53.91%;
+    right: 9.13%;
+    bottom: 13.48%;
+    color: var(--gray-600);
+}
+
+.description1,
+.price1,
+.title {
+    position: absolute;
+    left: 24.89%;
+}
+
+.title {
+    top: 10%;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.price1 {
+    height: 12.17%;
+    width: 17.61%;
+    top: 26.52%;
+    right: 57.5%;
+    bottom: 61.3%;
+    font-size: var(--title-h4-size);
+}
+
+.layout-2product-card-08-child {
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.layout-2product-card-081,
+.product-card-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 920px;
+    height: 230px;
+}
+
+.product-card-1 {
+    top: 457px;
+    left: 246px;
+    cursor: pointer;
+}
+
+.title1 {
+    position: absolute;
+    top: 10.43%;
+    left: 24.89%;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.product-card-11 {
+    position: absolute;
+    top: 687px;
+    left: 246px;
+    width: 920px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.title2 {
+    position: absolute;
+    top: 10%;
+    left: 22.5%;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.product-card-12 {
+    position: absolute;
+    top: 904px;
+    left: 236px;
+    width: 920px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.image-118-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-card-13 {
+    position: absolute;
+    top: 1117px;
+    left: 236px;
+    width: 920px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.layout-2product-card-085 {
+    position: absolute;
+    top: 1347px;
+    left: 246px;
+    width: 920px;
+    height: 230px;
+}
+
+.equipment-category {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 1657px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--text-base-size);
+    color: var(--base-color-dark);
+    font-family: var(--text-base);
+}

@@ -1,0 +1,25 @@
+﻿@model Auth_Login.Models.UserLogin
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="login">
+        <h1>Login In</h1>
+        <form method="post" asp-controller="Home" asp-action="Login">
+            <p>Enter Your Email</p>
+            <p><input type="text" asp-for="Email" placeholder="Username or Email" required></p>
+            <p>Enter Your Password</p>
+            <p><input type="password" asp-for="Password" placeholder="Password" required></p>
+            <p class="submit">
+                <button type="submit">Login</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

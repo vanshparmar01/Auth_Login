@@ -1,0 +1,39 @@
+﻿@* <html>
+<head>
+
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <div class="login">
+        <h1>Sign Up</h1>
+
+        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
+            <p>Enter Your Email </p>
+            <p><input type="text" name="email" value="" placeholder="Email" required></p>
+            <p>Enter Your Username </p>
+            <p><input type="text" name="username" value="" placeholder="Username" required></p>
+            <p>Enter Your Contact No </p>
+            <p><input type="text" name="Contact No" value="" placeholder="contact No" required></p>
+            <p>Enter Your Password </p>
+            <p><input type="password" name="passcode" value="" placeholder="Password" required></p>
+
+            <p class="remember_me">
+                <label>
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember me on this computer
+                </label>
+            </p>
+            @* <p class="submit"><input type="submit" name="commit" value="Sign Up"></p> *@
+           @*  <p class="submit">
+                <a href="/Home/Index">
+                    <input type="submit" name="commit" value="Sign Up">
+                </a>
+            </p>
+
+            <hr />
+            @ViewBag.username
+        </form>
+    </div>
+</body>
+</html> *@ 

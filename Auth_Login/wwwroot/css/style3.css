@@ -1,0 +1,302 @@
+﻿.group-child13,
+.home-inner {
+    position: absolute;
+    width: 702px;
+    height: 383px;
+}
+
+.group-child13 {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.home-inner {
+    top: 602px;
+    left: 738px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frame-child {
+    width: 3px;
+    position: relative;
+    background-color: var(--red);
+    height: 133px;
+}
+
+.are-you-ready {
+    margin: 0;
+}
+
+.are-you-ready-container {
+    width: 390px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size:38px;
+    color:white;
+    height: 183px;
+    flex-shrink: 0;
+    text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+
+.rectangle-parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 38px;
+}
+
+.being-physically-active {
+    width: 453px;
+    font-size: 15px;
+    color:white;
+    display: inline-block;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+.being-physically-active,
+.join-now {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.join-now-wrapper {
+    width: 95px;
+    background-color: red;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #f8f7f7;
+}
+
+.frame-parent {
+    position: absolute;
+    top: 643px;
+    left: 777px;
+    width: 627.2px;
+    height: 342.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 50px;
+    color: var(--white);
+}
+
+.home-child {
+    position: absolute;
+    top: 602px;
+    left: -2px;
+    width: 740px;
+    height: 383px;
+    object-fit: cover;
+}
+
+.home-item,
+.rectangle-icon {
+    position: absolute;
+    top: 1490px;
+    left: 5px;
+    width: 40px;
+    height: 333px;
+}
+
+.rectangle-icon {
+    top: 0;
+    left: -2px;
+    width: 1440px;
+    height: 602px;
+    object-fit: cover;
+}
+
+.span14 {
+    color: var(--white);
+}
+
+.gear-up-now1 {
+    margin: 0;
+    color: var(--red);
+}
+
+.empower-yourself-achieve-container1 {
+    position: absolute;
+    top: 301px;
+    left: 164px;
+    font-size: var(--font-size-49xl);
+    letter-spacing: 0.04em;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
+
+.image-128-icon {
+    position: absolute;
+    top: 1127px;
+    left: 736px;
+    border-radius: var(--br-2xl);
+    width: 228px;
+    height: 331px;
+    object-fit: cover;
+}
+
+.powermax-fitness-gh-450p4 {
+    width: 180px;
+    position: relative;
+    text-transform: capitalize;
+    display: inline-block;
+    height: 99px;
+    flex-shrink: 0;
+}
+
+.powermax-fitness-gh-450p-multi-container {
+    position: absolute;
+    top: 1496px;
+    left: 736px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.span15 {
+    font-size: var(--font-size-16xl);
+}
+
+.div23,
+.image-129-icon2 {
+    position: absolute;
+    width: 228px;
+}
+
+.div23 {
+    top: 1589px;
+    left: 735px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: var(--color-firebrick-100);
+    display: inline-block;
+    font-size: var(--font-size-20xl);
+}
+
+.image-129-icon2 {
+    top: 1138px;
+    left: 415px;
+    border-radius: var(--br-2xl);
+    height: 331px;
+    object-fit: cover;
+}
+
+.powermax-fitness-gh-450p5 {
+    position: absolute;
+    top: 1496px;
+    left: 424px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 180px;
+    height: 99px;
+}
+
+.div24,
+.image-130-icon {
+    position: absolute;
+    width: 228px;
+}
+
+.div24 {
+    top: 1595px;
+    left: 424px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: var(--color-firebrick-100);
+    display: inline-block;
+    font-size: var(--font-size-20xl);
+}
+
+.image-130-icon {
+    top: 1138px;
+    left: 127px;
+    border-radius: var(--br-2xl);
+    height: 331px;
+    object-fit: cover;
+}
+
+.powermax-fitness-gh-450p6 {
+    position: absolute;
+    top: 1496px;
+    left: 127px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 180px;
+    height: 99px;
+}
+
+.div25,
+.image-131-icon {
+    position: absolute;
+    width: 228px;
+}
+
+.div25 {
+    top: 1595px;
+    left: 125px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: var(--color-firebrick-100);
+    display: inline-block;
+    font-size: var(--font-size-20xl);
+}
+
+.image-131-icon {
+    top: 1127px;
+    left: 1057px;
+    border-radius: var(--br-2xl);
+    height: 331px;
+    object-fit: cover;
+}
+
+.div26,
+.powermax-fitness-gh-450p7 {
+    position: absolute;
+    display: inline-block;
+}
+
+.div26 {
+    top: 1595px;
+    left: 1046px;
+    font-size: var(--font-size-20xl);
+    text-transform: uppercase;
+    font-weight: 200;
+    color: var(--color-firebrick-100);
+    width: 228px;
+}
+
+.powermax-fitness-gh-450p7 {
+    top: 1496px;
+    left: 1057px;
+    text-transform: capitalize;
+    width: 180px;
+    height: 99px;
+}
+
+.home5 {
+    width: 100%;
+    position: relative;
+    background-color: #f3f3f4;
+    border: 1px solid var(--color-7);
+    box-sizing: border-box;
+    height: 1793px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--text-btn-btn-normal-size);
+    color: var(--grey);
+    font-family: var(--body);
+}

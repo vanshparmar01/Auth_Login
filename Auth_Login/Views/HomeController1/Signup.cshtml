@@ -1,0 +1,83 @@
+﻿@model Auth_Login.Models.Signup
+@{
+    ViewData["Title"] = "Signup";
+}
+@* 
+    <html>
+<head>
+
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <div class="login">
+        <h1>Sign Up</h1>
+
+        <form method="post" enctype="multipart/form-data" asp-controller="HomeController1" asp-action="Index">
+            <p>Enter Your Email </p>
+            <p><input type="text" name="email" value="" placeholder="Email" required></p>
+            <p>Enter Your Username </p>
+            <p><input type="text" name="username" value="" placeholder="Username" required></p>
+            <p>Enter Your Contact No </p>
+            <p><input type="text" name="Contact No" value="" placeholder="contact No" required></p>
+            <p>Enter Your Password </p>
+            <p><input type="password" name="passcode" value="" placeholder="Password" required></p>
+
+            <p class="remember_me">
+                <label>
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember me on this computer
+                </label>
+            </p>
+            @* <p class="submit"><input type="submit" name="commit" value="Sign Up"></p> *@
+            @* <p class="submit">
+                <a href="/Home/Index">
+                    <input type="submit" name="commit" value="Sign Up">
+                </a>
+            </p> *@
+
+           @*  <input type="submit" name="commit" value="Sign Up">
+
+            <hr />
+            @ViewBag.username
+        </form>
+    </div>
+</body>
+</html> *@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+    <body>
+    <form enctype="application/x-www-form-urlencoded" method="post" asp-controller="HomeController1" asp-action="Signup">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="username">Username</label>
+            <input asp-for="username" class="form-control" />
+            <span asp-validation-for="username" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="contact">Contact</label>
+            <input asp-for="contact" class="form-control" />
+            <span asp-validation-for="contact" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="password">Password</label>
+            <input asp-for="password" class="form-control" />
+            <span asp-validation-for="password" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </body>
+</html>
